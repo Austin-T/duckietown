@@ -1,6 +1,6 @@
 # Exercise 1
-In this exercise I learnt the basic knowledge and skills you needed to operate a
-Duckiebot, including robot assembly, networking, containerization, version control, and more.
+In this exercise I learned the basic knowledge and skills needed to operate a
+Duckiebot, including robot assembly, networking, scripting, containerization, version control, and more.
 
 This directory contains code that spans a set of exercises (B-2, B-5, and B-6) from the book *Hands On Robotics Development using Duckietown.*
 

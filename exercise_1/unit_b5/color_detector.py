@@ -35,7 +35,7 @@ def gst_pipeline_string():
 cap = cv2.VideoCapture()
 cap.open(gst_pipeline_string(), cv2.CAP_GSTREAMER)
 
-N_SPLITS = os.environ.get("N_SPLITS") or 100
+N_SPLITS = os.environ.get("N_SPLITS") or 10
 
 hue_to_color = {
     0: "red",
@@ -55,8 +55,8 @@ while(True):
     # proceed if frame was correctly captured
     if ret:
         # convert frame from BGR to HSV
-        frameHSV = cv.CreateImage(cv.GetSize(frame), 8, 3)
-        frameHSV = cv2.CvtColor(frame, frameHSV, cv.CV_BGR2HSV)
+        frame = np.float32(frame)
+        frameHSV = cv2.cvtColor(frame, cv2.COLOR_BGR2HSV)
         
         # divide the frame horizontally into N_SPLITS rows
         sectors = np.split(frameHSV, N_SPLITS)
@@ -78,7 +78,6 @@ while(True):
     
             # write detected color to output array
             detected_color.append(hue_to_color[nearest_hue])
-            
     
         # print the output array
         print("Sector\tDetected Color")

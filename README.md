@@ -26,3 +26,9 @@ This exercise provided an introduction to computer vision and localization in ro
 
 The [exercise_3](exercise_3/) directory contains a ROS docker image.
 
+# Exercise 4: Don't Crash! Tailing Behaviour
+This mini exercise involved the use of PID controllers for lane following, vehicle tailing, and collision avoidance.
+
+The [exercise_4](exercise_4/) directory contains a ROS docker image.
+
+

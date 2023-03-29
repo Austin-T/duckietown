@@ -7,7 +7,7 @@ At the root-level of this repository, you will notice that there are a set of fo
 Any code that is intended to be run by others will have instructions for doing so.
 
 # Contributors
-Code within the [exercise_2](exercise_2/) and [exercise_3](exercise_3/) subfolder was developed jointly with [MoyinF](https://github.com/MoyinF).
+Code for the Exercises 2 thorugh 5 was developed jointly with [MoyinF](https://github.com/MoyinF).
 
 # Exercises Overview
 ## Exercise 1: Duckiebot Assembly and Basic Development

@@ -31,4 +31,7 @@ This mini exercise involved the use of PID controllers for lane following, vehic
 
 The [exercise_4](exercise_4/) directory contains a ROS docker image.
 
+# Exercise 5: ML for Robotics
+This lab provides an introduction to machine learning in robotics. The object of the lab is to detect hand-written digits posted above fiducial markers.
 
+The [exercise_5](exercise_5/) directory contains two ROS docker image; one is meant to be run on a duckiebot while the other should be run on a remote computer.

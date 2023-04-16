@@ -21,17 +21,23 @@ In this exercise, I learned about different components of ROS (Nodes, Topics, Se
 
 The [exercise_2](exercise_2/) directory contains a ROS docker image.
 
-# Exercise 3: Computer Vision for Robotics
+## Exercise 3: Computer Vision for Robotics
 This exercise provided an introduction to computer vision and localization in robotics. It builds on top of the deadreckoning techniques developed in exercise 2, using fiducial markers to enable better pose estimation in the environment.
 
 The [exercise_3](exercise_3/) directory contains a ROS docker image.
 
-# Exercise 4: Don't Crash! Tailing Behaviour
+## Exercise 4: Don't Crash! Tailing Behaviour
 This mini exercise involved the use of PID controllers for lane following, vehicle tailing, and collision avoidance.
 
 The [exercise_4](exercise_4/) directory contains a ROS docker image.
 
-# Exercise 5: ML for Robotics
+## Exercise 5: ML for Robotics
 This lab provides an introduction to machine learning in robotics. The object of the lab is to detect hand-written digits posted above fiducial markers.
 
 The [exercise_5](exercise_5/) directory contains two ROS docker image; one is meant to be run on a duckiebot while the other should be run on a remote computer.
+
+## Final Project: Autonomous driving with duckietown
+
+In this final project, students were challenged to create a program that enables a duckiebot to traverse duckietown, whilst collecting points for completing various behaviours.
+
+The [final_project](final_project/) directory contains a ROS docker image.
